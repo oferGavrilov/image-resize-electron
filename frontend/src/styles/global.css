@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .home-section {
+      @apply bg-gradient-to-b from-gray-700 via-gray-900 to-black;
+    
+  }
+}

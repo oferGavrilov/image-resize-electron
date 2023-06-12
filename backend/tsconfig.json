@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                                  
+    "lib": ["es6"],                                      
+    "module": "NodeNext",  
+    "moduleResolution": "node",                              
+    "baseUrl": "./src",                                    
+    "allowJs": true,                                     
+    "outDir": "./build",                                   
+  },
+  "include": ["src/**/*"],
+}
