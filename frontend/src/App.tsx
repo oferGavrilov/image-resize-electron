@@ -11,7 +11,8 @@ function Home () {
 
   async function loadPersons () {
     const data = await personService.getPersons()
-    setPersons(data)
+    console.log(data)
+    // setPersons(data)
   }
 
   if(!persons) return (<div>Loading...</div>)
